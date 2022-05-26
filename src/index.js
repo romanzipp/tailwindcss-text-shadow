@@ -1,5 +1,5 @@
 const plugin = require('tailwindcss/plugin');
-const { parseColor } = require('tailwindcss/src/util/color');
+const Color = require('color');
 
 export default plugin(({ addUtilities, theme }) => {
     const rules = {};
@@ -22,7 +22,7 @@ export default plugin(({ addUtilities, theme }) => {
             }
 
             Object.keys(colorData).forEach((weight) => {
-                const parsedColor = parseColor(colorData[weight]);
+                const parsedColor = Color(colorData[weight]).rgb().array();
 
                 rules[`.text-shadow-${name}-${weight}`] = {
                     '--tw-text-shadow-color': `${parsedColor.color.join(' ')}`,
