@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-text-shadow",
+  "version": "1.0.0",
+  "description": "Text shadow plugin for tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore .",
+    "lintfix": "yarn lint --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
