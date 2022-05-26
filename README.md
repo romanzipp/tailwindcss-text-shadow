@@ -6,21 +6,24 @@
 
 ## Install
 
+Install the plugin from npm:
+
 ```shell
-yarn add @romanzipp/tailwindcss-text-shadow
+yarn add -D @romanzipp/tailwindcss-text-shadow
 ```
 
-## Configuration
-
-Your `tailwind.config.js` file
+Then add the plugin to your `tailwind.config.js` file:
 
 ```js
 const textShadow = require('@romanzipp/tailwindcss-text-shadow');
 
 module.exports = {
-    // ...
+    theme: {
+        // ...
+    },
     plugins: [
         textShadow,
+        // ...
     ],
 };
 ```
