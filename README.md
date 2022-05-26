@@ -1,5 +1,9 @@
 # Tailwind CSS Text Shadow
 
+[![Latest Stable Version](https://img.shields.io/npm/v/@romanzipp/tailwindcss-text-shadow?style=flat-square)](https://www.npmjs.com/package/@romanzipp/tailwindcss-text-shadow)
+[![Total Downloads](https://img.shields.io/npm/dy/@romanzipp/tailwindcss-text-shadow?style=flat-square)](https://www.npmjs.com/package/@romanzipp/tailwindcss-text-shadow)
+[![GitHub Build Status](https://img.shields.io/github/workflow/status/romanzipp/tailwindcss-text-shadow/Lint?style=flat-square)](https://github.com/romanzipp/tailwindcss-text-shadow/actions)
+
 ## Install
 
 ```shell
