@@ -15,7 +15,7 @@ yarn add @romanzipp/tailwindcss-text-shadow
 Your `tailwind.config.js` file
 
 ```js
-const textShadow = require('tailwindcss-text-shadow');
+const textShadow = require('@romanzipp/tailwindcss-text-shadow');
 
 module.exports = {
     // ...
