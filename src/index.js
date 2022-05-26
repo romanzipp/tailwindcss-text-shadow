@@ -3,7 +3,6 @@ const Color = require('color');
 
 export default plugin(({ addUtilities, theme }) => {
     const rules = {};
-    const themeColors = theme('colors');
 
     const iterateColors = (colors) => {
         Object.keys(colors).forEach((name) => {
@@ -22,6 +21,10 @@ export default plugin(({ addUtilities, theme }) => {
             }
 
             Object.keys(colorData).forEach((weight) => {
+                if (typeof colorData[weight] !== 'string') {
+                    return;
+                }
+
                 const parsedColor = Color(colorData[weight]).rgb().array();
 
                 rules[`.text-shadow-${name}-${weight}`] = {
@@ -60,7 +63,9 @@ export default plugin(({ addUtilities, theme }) => {
         };
     });
 
-    iterateColors(themeColors);
+    iterateColors(
+        theme('colors'),
+    );
 
     addUtilities(rules);
 });

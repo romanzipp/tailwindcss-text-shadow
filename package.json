@@ -1,6 +1,6 @@
 {
   "name": "@romanzipp/tailwindcss-text-shadow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Text shadow plugin for tailwindcss",
   "main": "src/index.js",
   "scripts": {
