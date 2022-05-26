@@ -23,6 +23,12 @@ module.exports = {
 
 ## Usage
 
+```html
+<div class="text-shadow text-shadow-red-500 text-shadow-opacity-50">
+    Your awesome headline
+</div>
+
+```
 ```
 .text-shadow
 ```
@@ -62,6 +68,11 @@ module.exports = {
 .text-shadow-opacity-95
 .text-shadow-opacity-100
 ```
+
+## // TODO
+
+- [ ] Support color `/` syntax
+- [ ] Support JIT values
 
 ## Authors
 
