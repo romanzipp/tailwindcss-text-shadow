@@ -7,7 +7,7 @@
 ## Install
 
 ```shell
-yarn add @romanzipp/streamfinity-frontend
+yarn add @romanzipp/tailwindcss-text-shadow
 ```
 
 ## Configuration
