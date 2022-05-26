@@ -1,4 +1,5 @@
 const plugin = require('tailwindcss/plugin');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const Color = require('color');
 
 export default plugin(({ addUtilities, theme }) => {
