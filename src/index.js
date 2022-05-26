@@ -25,7 +25,7 @@ export default plugin(({ addUtilities, theme }) => {
                 const parsedColor = Color(colorData[weight]).rgb().array();
 
                 rules[`.text-shadow-${name}-${weight}`] = {
-                    '--tw-text-shadow-color': `${parsedColor.color.join(' ')}`,
+                    '--tw-text-shadow-color': `${parsedColor.join(' ')}`,
                 };
             });
         });
