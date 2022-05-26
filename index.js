@@ -1,6 +1,5 @@
-import { parseColor } from 'tailwindcss/src/util/color';
-
 const plugin = require('tailwindcss/plugin');
+const { parseColor } = require('tailwindcss/src/util/color');
 
 export default plugin(({ addUtilities, theme }) => {
     const rules = {};
